@@ -3,7 +3,7 @@ from fastapi import FastAPI , APIRouter , HTTPException
 app = FastAPI(
     version="1.3.7",
     title= "FastAPI Dashboard",
-    summary="Ithe Ki Krn Deya aa Penchoda",
+    summary="Query Here the Different API Versions",
     
 )
 v1Router = APIRouter(prefix="/v1/apis" , tags=["V1 API's"])
